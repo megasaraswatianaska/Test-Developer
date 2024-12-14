@@ -1,0 +1,185 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@namespace WebCustomer.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Aplikasi Penjualan</title>
+    <base href="~/" />
+    <!-- Main Stylesheet-->
+    <link id="vendorsbundle" rel="stylesheet" media="screen, print" href="./assets/css/vendors.bundle.css">
+    <link id="appbundle" rel="stylesheet" media="screen, print" href="./assets/css/app.bundle.css">
+    <!--<link id="mytheme" rel="stylesheet" media="screen, print" href="./assets/css/themes/cust-theme-2-recreate.css"> yg dah aku buat-->
+    <link rel="stylesheet" media="screen, print" href="./assets/css/themes/cust-theme-7.css" id="color-ascent">
+    <link rel="stylesheet" media="screen, print" href="./assets/css/skins/skin-master.css">
+    <link rel="stylesheet" media="screen, print" href="./assets/plugins/animate/animate.min.css" as="animation" />
+    <link href="./_content/Syncfusion.Blazor.Themes/bootstrap5.css" rel="stylesheet" id="syncfusion-theme" />
+
+    <!-- Plugins Stylesheet-->
+    <link rel="stylesheet" media="screen, print" href="./assets/plugins/animate/animate.min.css" />
+    <link rel="stylesheet" media="screen, print" href="./assets/plugins/toastr/toastr.css" />
+
+    <!-- Font Stylesheet -->
+    <link rel="stylesheet" media="screen, print" href="./assets/css/fa-brands.css">
+    <link rel="stylesheet" media="screen, print" href="./assets/css/fa-solid.css">
+    <link rel="stylesheet" media="screen, print" href="./assets/fonts/fontawesome/css/brands.min.css">
+
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="WebCustomer.styles.css" rel="stylesheet" />
+    <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
+</head>
+<body>
+    <div id="app">
+        @*   <div class="preload animate__animated animate__fadeIn">
+        <div class="preload-img">
+        <div class="preload-loader">
+        <span class="spinner-border spinner-border-sm mr-2" role="status" aria-hidden="true"></span>
+        </div>
+        </div>
+        </div> *@
+        <!--<svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>-->
+    </div>
+    @RenderBody()
+
+    <div id="blazor-error-ui">
+        <environment include="Staging,Production">
+            An error has occurred. This application may no longer respond until reloaded.
+        </environment>
+        <environment include="Development">
+            An unhandled exception has occurred. See browser dev tools for details.
+        </environment>
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <p id="js-color-profile" class="d-none">
+        <span class="color-primary-50"></span>
+        <span class="color-primary-100"></span>
+        <span class="color-primary-200"></span>
+        <span class="color-primary-300"></span>
+        <span class="color-primary-400"></span>
+        <span class="color-primary-500"></span>
+        <span class="color-primary-600"></span>
+        <span class="color-primary-700"></span>
+        <span class="color-primary-800"></span>
+        <span class="color-primary-900"></span>
+        <span class="color-info-50"></span>
+        <span class="color-info-100"></span>
+        <span class="color-info-200"></span>
+        <span class="color-info-300"></span>
+        <span class="color-info-400"></span>
+        <span class="color-info-500"></span>
+        <span class="color-info-600"></span>
+        <span class="color-info-700"></span>
+        <span class="color-info-800"></span>
+        <span class="color-info-900"></span>
+        <span class="color-danger-50"></span>
+        <span class="color-danger-100"></span>
+        <span class="color-danger-200"></span>
+        <span class="color-danger-300"></span>
+        <span class="color-danger-400"></span>
+        <span class="color-danger-500"></span>
+        <span class="color-danger-600"></span>
+        <span class="color-danger-700"></span>
+        <span class="color-danger-800"></span>
+        <span class="color-danger-900"></span>
+        <span class="color-warning-50"></span>
+        <span class="color-warning-100"></span>
+        <span class="color-warning-200"></span>
+        <span class="color-warning-300"></span>
+        <span class="color-warning-400"></span>
+        <span class="color-warning-500"></span>
+        <span class="color-warning-600"></span>
+        <span class="color-warning-700"></span>
+        <span class="color-warning-800"></span>
+        <span class="color-warning-900"></span>
+        <span class="color-success-50"></span>
+        <span class="color-success-100"></span>
+        <span class="color-success-200"></span>
+        <span class="color-success-300"></span>
+        <span class="color-success-400"></span>
+        <span class="color-success-500"></span>
+        <span class="color-success-600"></span>
+        <span class="color-success-700"></span>
+        <span class="color-success-800"></span>
+        <span class="color-success-900"></span>
+        <span class="color-fusion-50"></span>
+        <span class="color-fusion-100"></span>
+        <span class="color-fusion-200"></span>
+        <span class="color-fusion-300"></span>
+        <span class="color-fusion-400"></span>
+        <span class="color-fusion-500"></span>
+        <span class="color-fusion-600"></span>
+        <span class="color-fusion-700"></span>
+        <span class="color-fusion-800"></span>
+        <span class="color-fusion-900"></span>
+    </p>
+    <script src="_framework/blazor.server.js"></script>
+    <script src="./assets/plugins/pdfjs/pdf.js"></script>
+    <script src="./_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js" type="text/javascript"></script>
+
+
+
+    <!-- Main Javascript -->
+    <script src="./assets/js/vendors.bundle.js"></script>
+    <script src="./assets/js/app.bundle.js"></script>
+    <!-- Plugins Javascript -->
+    <script src="./assets/plugins/toastr/toastr.js"></script>
+
+    <script>
+        'use strict';
+
+        var classHolder = document.getElementsByTagName("BODY")[0],
+            /**
+             * Load from localstorage
+             **/
+            themeSettings = (localStorage.getItem('themeSettings')) ? JSON.parse(localStorage.getItem('themeSettings')) :
+                {},
+            themeURL = themeSettings.themeURL || '',
+            themeOptions = themeSettings.themeOptions || '';
+    </script>
+
+    <script>
+        function ShowNotification(status, message) {
+            toastr.options = {
+                "closeButton": false,
+                "debug": false,
+                "newestOnTop": true,
+                "progressBar": true,
+                "positionClass": "toast-top-right",
+                "preventDuplicates": true,
+                "onclick": null,
+                "showDuration": 300,
+                "hideDuration": 100,
+                "timeOut": 5000,
+                "extendedTimeOut": 1000,
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            }
+            toastr[status](message);
+        };
+    </script>
+    <script>
+        function ModalShow(id) {
+            $('#' + id).modal('show');
+        }
+        function ModalClose(id) {
+            $('#' + id).modal('hide');
+        }
+    </script>
+    <script>
+        function showLog(log) {
+            console.log(log);
+        }
+    </script>
+</body>
+</html>

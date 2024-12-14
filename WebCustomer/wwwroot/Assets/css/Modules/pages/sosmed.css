@@ -1,0 +1,15 @@
+.page-footer-social-item {
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #8fc74a;
+  width: 28px;
+  height: 28px;
+  color: #ffff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=sosmed.css.map */

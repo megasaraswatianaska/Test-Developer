@@ -1,0 +1,761 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebCustomer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebCustomer.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\Modules\\component\\tabsync.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\Modules\\component\\tabsync.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\Modules\\component\\tabsync.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\Modules\\component\\tabsync.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\Modules\\pages\\merchant.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\Modules\\pages\\merchant.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\Modules\\pages\\sosmed.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\Modules\\pages\\sosmed.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\Modules\\pages\\sosmed.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\Modules\\pages\\sosmed.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\app.bundle.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\app.bundle.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\app.bundle.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\app.bundle.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\fa-brands.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\fa-brands.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\fa-brands.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\fa-brands.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\fa-duotone.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\fa-duotone.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\fa-duotone.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\fa-duotone.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\fa-light.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\fa-light.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\fa-light.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\fa-light.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\fa-regular.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\fa-regular.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\fa-regular.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\fa-regular.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\fa-solid.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\fa-solid.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\fa-solid.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\fa-solid.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\bootstrap-colorpicker\\bootstrap-colorpicker.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\bootstrap-colorpicker\\bootstrap-colorpicker.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\bootstrap-colorpicker\\bootstrap-colorpicker.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\bootstrap-colorpicker\\bootstrap-colorpicker.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\bootstrap-datepicker\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\bootstrap-datepicker\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\bootstrap-datepicker\\bootstrap-datepicker.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\bootstrap-datepicker\\bootstrap-datepicker.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\bootstrap-daterangepicker\\bootstrap-daterangepicker.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\bootstrap-daterangepicker\\bootstrap-daterangepicker.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\bootstrap-daterangepicker\\bootstrap-daterangepicker.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\bootstrap-daterangepicker\\bootstrap-daterangepicker.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\bootstrap-markdown\\bootstrap-markdown.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\bootstrap-markdown\\bootstrap-markdown.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\bootstrap-markdown\\bootstrap-markdown.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\bootstrap-markdown\\bootstrap-markdown.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\cropperjs\\cropper.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\cropperjs\\cropper.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\cropperjs\\cropper.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\cropperjs\\cropper.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\dropzone\\dropzone.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\dropzone\\dropzone.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\dropzone\\dropzone.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\dropzone\\dropzone.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\ion-rangeslider\\ion-rangeslider.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\ion-rangeslider\\ion-rangeslider.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\ion-rangeslider\\ion-rangeslider.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\ion-rangeslider\\ion-rangeslider.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\nouislider\\nouislider.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\nouislider\\nouislider.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\nouislider\\nouislider.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\nouislider\\nouislider.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\select2\\select2.bundle.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\select2\\select2.bundle.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\select2\\select2.bundle.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\select2\\select2.bundle.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\smartwizard\\smartwizard.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\smartwizard\\smartwizard.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\smartwizard\\smartwizard.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\smartwizard\\smartwizard.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\summernote\\summernote.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\summernote\\summernote.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\formplugins\\summernote\\summernote.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\formplugins\\summernote\\summernote.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\imgal.min.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\imgal.min.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\notifications\\sweetalert2\\sweetalert2.bundle.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\notifications\\sweetalert2\\sweetalert2.bundle.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\notifications\\sweetalert2\\sweetalert2.bundle.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\notifications\\sweetalert2\\sweetalert2.bundle.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\notifications\\toastr\\toastr.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\notifications\\toastr\\toastr.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\notifications\\toastr\\toastr.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\notifications\\toastr\\toastr.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\page-login-alt.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\page-login-alt.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\page-login-alt.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\page-login-alt.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\skins\\skin-master.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\skins\\skin-master.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\skins\\skin-master.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\skins\\skin-master.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\statistics\\c3\\c3.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\statistics\\c3\\c3.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\statistics\\c3\\c3.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\statistics\\c3\\c3.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\statistics\\chartist\\chartist.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\statistics\\chartist\\chartist.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\statistics\\chartist\\chartist.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\statistics\\chartist\\chartist.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\statistics\\chartjs\\chartjs.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\statistics\\chartjs\\chartjs.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\statistics\\chartjs\\chartjs.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\statistics\\chartjs\\chartjs.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\statistics\\dygraph\\dygraph.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\statistics\\dygraph\\dygraph.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\statistics\\dygraph\\dygraph.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\statistics\\dygraph\\dygraph.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-1.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-1.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-1.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-1.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-10.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-10.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-10.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-10.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-11.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-11.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-11.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-11.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-12.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-12.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-12.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-12.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-13.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-13.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-13.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-13.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-14.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-14.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-14.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-14.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-15.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-15.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-15.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-15.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-2-recreate.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-2-recreate.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-2-recreate.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-2-recreate.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-2.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-2.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-2.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-2.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-3.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-3.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-3.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-3.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-4.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-4.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-4.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-4.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-5.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-5.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-5.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-5.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-6.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-6.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-6.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-6.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-7.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-7.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-7.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-7.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-8.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-8.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-8.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-8.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-9.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-9.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\themes\\cust-theme-9.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\themes\\cust-theme-9.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\vendor\\select2-bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\vendor\\select2-bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\vendor\\select2.min.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\vendor\\select2.min.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\vendors.bundle.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\vendors.bundle.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\vendors.bundle.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\vendors.bundle.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\vtl-main.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\vtl-main.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\css\\vtl-main.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\vtl-main.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\fonts\\fontawesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fontawesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\fonts\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fontawesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\fonts\\fontawesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fontawesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\fonts\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fontawesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\fonts\\fontawesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fontawesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\fonts\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fontawesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\fonts\\fontawesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fontawesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\fonts\\fontawesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fontawesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\fonts\\fontawesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\images\\apple-icon.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\apple-icon.png"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\images\\card-background.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\card-background.png"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\images\\no_image.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\no_image.png"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\images\\no_image_user.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\no_image_user.png"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\js\\app.bundle.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\app.bundle.js"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\js\\imgal.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\imgal.js"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\js\\index.bundle.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\index.bundle.js"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\js\\index.bundle.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\Assets\\js\\index.bundle.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\js\\main-layout.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\main-layout.js"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\js\\vendors.bundle.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\vendors.bundle.js"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\plugins\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\Assets\\plugins\\animate\\animate.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\plugins\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\Assets\\plugins\\animate\\animate.min.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\plugins\\bs-5-lightbox\\ekko-lightbox.css",
+      "PackagePath": "staticwebassets\\Assets\\plugins\\bs-5-lightbox\\ekko-lightbox.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\plugins\\bs-5-lightbox\\ekko-lightbox.js",
+      "PackagePath": "staticwebassets\\Assets\\plugins\\bs-5-lightbox\\ekko-lightbox.js"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\plugins\\bs-5-lightbox\\ekko-lightbox.min.css",
+      "PackagePath": "staticwebassets\\Assets\\plugins\\bs-5-lightbox\\ekko-lightbox.min.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\plugins\\bs-5-lightbox\\ekko-lightbox.min.js",
+      "PackagePath": "staticwebassets\\Assets\\plugins\\bs-5-lightbox\\ekko-lightbox.min.js"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\plugins\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\Assets\\plugins\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\plugins\\toastr\\toastr.css",
+      "PackagePath": "staticwebassets\\Assets\\plugins\\toastr\\toastr.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\plugins\\toastr\\toastr.css.map",
+      "PackagePath": "staticwebassets\\Assets\\plugins\\toastr\\toastr.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\plugins\\toastr\\toastr.js",
+      "PackagePath": "staticwebassets\\Assets\\plugins\\toastr\\toastr.js"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\vtl-sass\\Components\\_datepicker.scss",
+      "PackagePath": "staticwebassets\\Assets\\vtl-sass\\Components\\_datepicker.scss"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\vtl-sass\\Components\\_layoutConfig.scss",
+      "PackagePath": "staticwebassets\\Assets\\vtl-sass\\Components\\_layoutConfig.scss"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\vtl-sass\\Components\\_listCard.scss",
+      "PackagePath": "staticwebassets\\Assets\\vtl-sass\\Components\\_listCard.scss"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\vtl-sass\\Components\\_syncfusionRichTextbox.scss",
+      "PackagePath": "staticwebassets\\Assets\\vtl-sass\\Components\\_syncfusionRichTextbox.scss"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\vtl-sass\\Mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\Assets\\vtl-sass\\Mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\vtl-sass\\Mixins\\_mixinTextTruncate.scss",
+      "PackagePath": "staticwebassets\\Assets\\vtl-sass\\Mixins\\_mixinTextTruncate.scss"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\vtl-sass\\Pages\\_detailBerita.scss",
+      "PackagePath": "staticwebassets\\Assets\\vtl-sass\\Pages\\_detailBerita.scss"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\vtl-sass\\Pages\\_preloader.scss",
+      "PackagePath": "staticwebassets\\Assets\\vtl-sass\\Pages\\_preloader.scss"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\vtl-sass\\_Component.scss",
+      "PackagePath": "staticwebassets\\Assets\\vtl-sass\\_Component.scss"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\vtl-sass\\_Page.scss",
+      "PackagePath": "staticwebassets\\Assets\\vtl-sass\\_Page.scss"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\vtl-sass\\vtl-main.css",
+      "PackagePath": "staticwebassets\\Assets\\vtl-sass\\vtl-main.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\vtl-sass\\vtl-main.css.map",
+      "PackagePath": "staticwebassets\\Assets\\vtl-sass\\vtl-main.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\vtl-sass\\vtl-main.scss",
+      "PackagePath": "staticwebassets\\Assets\\vtl-sass\\vtl-main.scss"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-duotone-900.eot",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-duotone-900.eot"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-duotone-900.svg",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-duotone-900.svg"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-duotone-900.woff",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-duotone-900.woff"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-light-300.svg"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\nextgen-icons.eot",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\nextgen-icons.eot"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\nextgen-icons.svg",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\nextgen-icons.svg"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\nextgen-icons.ttf",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\nextgen-icons.ttf"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\nextgen-icons.woff",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\nextgen-icons.woff"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\nextgen-icons.woff2",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\nextgen-icons.woff2"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\summernote.eot",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\summernote.eot"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\summernote.ttf",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\summernote.ttf"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\summernote.woff",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\summernote.woff"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\Assets\\webfonts\\summernote.woff2",
+      "PackagePath": "staticwebassets\\Assets\\webfonts\\summernote.woff2"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\KERJAAN\\PreviewKerjaan\\WebCustomer\\WebCustomer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebCustomer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebCustomer.props",
+      "PackagePath": "build\\WebCustomer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebCustomer.props",
+      "PackagePath": "buildMultiTargeting\\WebCustomer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebCustomer.props",
+      "PackagePath": "buildTransitive\\WebCustomer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

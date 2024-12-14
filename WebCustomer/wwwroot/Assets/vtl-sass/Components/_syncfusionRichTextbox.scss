@@ -1,0 +1,12 @@
+﻿.e-richtexteditor {
+}
+.modal {
+    .e-richtexteditor {
+        .e-toolbar-container {
+            height: auto !important;
+        }
+    }
+}
+.e-richtexteditor .e-rte-content .e-content, .e-richtexteditor .e-source-content .e-content {
+    min-height: 400px !important;
+}

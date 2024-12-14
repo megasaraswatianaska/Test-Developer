@@ -1,0 +1,67 @@
+﻿@use "../Mixins/breakpoints";
+@use "../Mixins/mixinTextTruncate";
+
+.card-danger {
+    background-color: #ff000021 !important;
+}
+.card-secondary {
+    background-color: #6c757d24 !important; 
+}
+.card-body-news {
+    height: 180px;
+
+    @include breakpoints.Desktop {
+        height: 370px;
+    }
+
+    @include breakpoints.Mobile {
+        height: auto;
+    }
+}
+.card-body-news-content {
+    display: flex;
+
+    @include breakpoints.Desktop {
+        display: block;
+    }
+
+    .card-news-img {
+        @include breakpoints.Desktop {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.img-news {
+    height: 130px;
+    max-width :215px;
+}
+.content-news {
+    width: 100%;
+
+    @include breakpoints.Mobile {
+        margin-top: 10px
+    }
+
+    .title-news {
+        font-size: 12px;
+
+        @include mixinTextTruncate.default(2);
+    }
+
+    .text-news-desc {
+        .news-date {
+            font-size: 12px;
+            color: gray;
+        }
+
+        .text-desc {
+            font-size: 12px;
+            max-width: 17em;
+            height: 85px;
+            max-height: 85px;
+            @include mixinTextTruncate.default(5);
+        }
+    }
+}

@@ -1,0 +1,8 @@
+﻿
+@mixin default($maxrow: 1) {
+    display: -webkit-box;
+    -webkit-line-clamp: $maxrow;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

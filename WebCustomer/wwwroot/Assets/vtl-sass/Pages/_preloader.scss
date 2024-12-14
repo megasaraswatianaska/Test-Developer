@@ -1,0 +1,32 @@
+﻿.preload {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    /*animation: fadeIn 0.8s;*/
+
+    .preload-img {
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+
+        img {
+            width:80px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        .preload-loader {
+            display: block;
+            text-align: center;
+        }
+    }
+}
+
+.content-rendered {
+    animation: fadeIn 0.8s;
+}

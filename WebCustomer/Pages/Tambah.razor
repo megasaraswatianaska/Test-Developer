@@ -1,0 +1,238 @@
+﻿@page "/sales/tambah"
+@page "/sales/ubah/{id}"
+@using WebCustomer.Models
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Web
+@using Syncfusion.Blazor.Grids
+<style>
+
+    .e-grid .e-headercell {
+        background-color: #063b65;
+        color: white;
+    }
+</style>
+@if (isLoading.Data)
+{
+    <div class="col-xl-12 text-center mt-3 mb-3">
+        <span class="spinner-border spinner-border-sm text-primary" role="status" aria-hidden="true"></span>
+        <span>Loading...</span>
+    </div>
+}
+else
+{
+
+    <div id="panel-1" class="panel">
+        <div class="panel-hdr bg-info-700 bg-success-gradient">
+            <h2 class="title-class">
+                Add New - Sales Order
+            </h2>
+        </div>
+        <div class="panel-container show">
+            <div class="panel-content">
+
+                <div class="accordion mb-3" id="js_demo_accordion-5">
+                    <div class="card">
+                        <div class="card-header">
+                            <a href="javascript:void(0);" class="card-title text-white bg-info-800 bg-success-gradient" data-toggle="collapse" data-target="#js_demo_accordion-5a" aria-expanded="true">
+                                <h4>
+                                    <i class="fal fa-cog width-2 fs-xl"></i>
+                                    Sales Order Information
+                                </h4>
+                                <span class="ml-auto">
+                                    <span class="collapsed-reveal">
+                                        <i class="fal fa-chevron-up fs-xl"></i>
+                                    </span>
+                                    <span class="collapsed-hidden">
+                                        <i class="fal fa-chevron-down fs-xl"></i>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <div id="js_demo_accordion-5a" class="collapse show" data-parent="#js_demo_accordion-5" style="">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-group">
+                                            <label class="form-label" for="basic-addon2">Sales Order Number</label>
+                                            <input @bind="this.tambahViewModel.OrderNo" class="form-control"></input>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-group">
+                                            <label class="form-label" for="basic-addon2">Customer</label>
+                                            <select @bind="this.tambahViewModel.ComCustomerId" class="form-control">
+                                                @foreach (var customer in listCustomer)
+                                                {
+                                                    <option value="@(customer.ComCustomerId)">@(customer.CustomerName)</option>
+                                                }
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-group">
+                                            <label class="form-label" for="basic-addon2">Order Date</label>
+                                            <input class="form-control" @bind="this.tambahViewModel.OrderDate" id="example-date" type="date" name="date">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-group">
+                                            <label class="form-label" for="basic-addon2">Address</label>
+                                            <textarea @bind="this.tambahViewModel.Address" class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a href="javascript:void(0);" class="card-title text-white bg-info-800 bg-success-gradient" data-toggle="collapse" data-target="#js_demo_accordion-5b" aria-expanded="false">
+                                <i class="fal fa-code-merge width-2 fs-xl"></i>
+                                Detail Item Information
+                                <span class="ml-auto">
+                                    <span class="collapsed-reveal">
+                                        <i class="fal fa-chevron-up fs-xl"></i>
+                                    </span>
+                                    <span class="collapsed-hidden">
+                                        <i class="fal fa-chevron-down fs-xl"></i>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <div id="js_demo_accordion-5b" class="collapse show" data-parent="#js_demo_accordion-5" style="">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-12 mb-1">
+                                        <div class="p-3">
+                                           
+                                            <button @onclick="@(()=>BtnAddItem_Click())" type="submit" class="btn btn-danger">Add Item</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mb-3">
+                                        <SfGrid @ref="this.mainGrid"
+                                                DataSource="@(this.tambahViewModel.SoItems)"
+                                                AllowPaging="false"
+                                                AllowFiltering="false"
+                                                AllowTextWrap="true"
+                                                AllowResizing="true"
+                                                AllowSorting="false"
+                                                AllowExcelExport="false"
+                                                AllowGrouping="false"
+                                                AllowPdfExport="false"
+                                                Width="100%"
+                                                EnableAutoFill="true"
+                                                ShowColumnChooser="false">
+                                            <GridEditSettings AllowAdding="true" AllowEditing="true" AllowDeleting="true" Mode="EditMode.Normal" ShowDeleteConfirmDialog="true"></GridEditSettings>
+                                            <GridEvents CommandClicked="mainGridTable_OnCommandClicked"
+                                                        OnActionBegin="mainGridTable_ActionBegin"
+                                                        TValue="SoItem">
+                                            </GridEvents>
+
+                                            <GridAggregates>
+                                                <GridAggregate>
+                                                    <GridAggregateColumns>
+                                                        <GridAggregateColumn Field=@nameof(SoItem.Quantity) Type="AggregateType.Sum" Format="#,0.#">
+                                                            <FooterTemplate>
+                                                                @{
+                                                                    var aggregate = (context as AggregateTemplateContext);
+                                                                    <div>
+                                                                        <p>Total Item: @aggregate.Sum</p>
+                                                                    </div>
+                                                                }
+                                                            </FooterTemplate>
+                                                        </GridAggregateColumn>
+                                                        <GridAggregateColumn Field=@nameof(SoItem.Price) Type="AggregateType.Sum" Format="#,0.#">
+                                                            <FooterTemplate>
+                                                                @{
+                                                                    var aggregate = (context as AggregateTemplateContext);
+                                                                    <div>
+                                                                        <p>Total Amount: @aggregate.Sum</p>
+                                                                    </div>
+                                                                }
+                                                            </FooterTemplate>
+                                                        </GridAggregateColumn>
+                                                    </GridAggregateColumns>
+                                                </GridAggregate>
+                                            </GridAggregates>
+                                            <GridColumns>
+                                                <GridColumn Width="110"
+                                                            TextAlign="TextAlign.Center"
+                                                            ClipMode="ClipMode.EllipsisWithTooltip"
+                                                            AllowEditing="false"
+                                                            HeaderText="AKSI">
+                                                    <GridCommandColumns>
+                                                        <GridCommandColumn ID="BtnEdit" Type="CommandButtonType.Edit" ButtonOption="@(new CommandButtonOptions() { IconCss = "fal fa-pencil", CssClass = "btn btn-outline-primary btn-sm btn-icon waves-effect waves-themed mr-1 p-0" })"></GridCommandColumn>
+                                                        <GridCommandColumn ID="BtnSimpan" Type="CommandButtonType.Save" ButtonOption="@(new CommandButtonOptions() { IconCss = "fal fa-save", CssClass = "btn btn-outline-info btn-sm btn-icon waves-effect waves-themed mr-1 p-0" })"></GridCommandColumn>
+                                                        <GridCommandColumn ID="BtnCancel" Type="CommandButtonType.Cancel" ButtonOption="@(new CommandButtonOptions() { IconCss = "fal fa-times", CssClass = "btn btn-outline-primary btn-sm btn-icon waves-effect waves-themed mr-1 p-0" })"></GridCommandColumn>
+                                                        <GridCommandColumn ID="BtnDelete" Type="CommandButtonType.Delete" ButtonOption="@(new CommandButtonOptions() { IconCss = "fal fa-trash", CssClass = "btn btn-outline-danger btn-sm btn-icon waves-effect waves-themed mr-1 p-0" })"></GridCommandColumn>
+                                                    </GridCommandColumns>
+                                                </GridColumn>
+                                                <GridColumn HeaderText="ID"
+                                                    IsPrimaryKey="true"
+                                                            Field="@nameof(SoItem.SoItemId)"
+                                                            ClipMode="ClipMode.EllipsisWithTooltip"
+                                                            Width="200"
+                                                            CustomAttributes="@(new Dictionary<string, object>(){ { "class", "vertical-align-top" }})"
+                                                            ValidationRules="@(new ValidationRules{ Required= true })"
+                                                            Visible="false">
+                                                </GridColumn>
+                                                <GridColumn HeaderText="ITEM NAME"
+                                                            Field="@nameof(SoItem.ItemName)"
+                                                            ClipMode="ClipMode.EllipsisWithTooltip"
+                                                            Width="200"
+                                                            CustomAttributes="@(new Dictionary<string, object>(){ { "class", "vertical-align-top" }})"
+                                                            ValidationRules="@(new ValidationRules{ Required= true })">
+                                                </GridColumn>
+                                                <GridColumn HeaderText="QTY"
+                                                            Field="@nameof(SoItem.Quantity)"
+                                                            ClipMode="ClipMode.EllipsisWithTooltip"
+                                                            Width="200"
+                                                            EditType="EditType.NumericEdit"
+                                                            CustomAttributes="@(new Dictionary<string, object>(){ { "class", "vertical-align-top" }})"
+                                                            ValidationRules="@(new ValidationRules{ Required= true })"></GridColumn>
+                                                <GridColumn HeaderText="PRICE"
+                                                            Field="@nameof(SoItem.Price)"
+                                                            ClipMode="ClipMode.EllipsisWithTooltip"
+                                                            Width="200"
+                                                            Format="#,##"
+                                                            EditType="EditType.NumericEdit"
+                                                            CustomAttributes="@(new Dictionary<string, object>(){ { "class", "vertical-align-top" }})"
+                                                            ValidationRules="@(new ValidationRules{ Required= true })"></GridColumn>
+                                                <GridColumn HeaderText="Total"
+                                                            ClipMode="ClipMode.EllipsisWithTooltip"
+                                                            Width="200"
+                                                            Format="#,##"
+                                                            AllowEditing="false"
+                                                            EditType="EditType.NumericEdit"
+                                                            CustomAttributes="@(new Dictionary<string, object>(){ { "class", "vertical-align-top" }})"
+                                                            ValidationRules="@(new ValidationRules{ Required= true })">
+                                                    <Template>
+                                                        @{
+                                                            var data = (context as SoItem);
+                                                            <span>
+                                                                @((data.Price * data.Quantity).ToString("#,##"))
+                                                            </span>
+                                                        }
+                                                    </Template>
+                                                </GridColumn>
+                                            </GridColumns>
+                                        </SfGrid>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-white text-center">
+                        <div class="p-3">
+                            <a @onclick="@(()=>BtnSimpan_Click())" class="btn btn-danger">Simpan</a>
+                            <a href="/" class="btn btn-info">Kembali</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

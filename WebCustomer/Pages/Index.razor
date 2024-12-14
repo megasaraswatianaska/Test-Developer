@@ -1,0 +1,188 @@
+﻿@page "/"
+@using WebCustomer.Models
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Web
+@using Syncfusion.Blazor.Grids
+<style>
+    .title-class {
+        font-size: 1.5em;
+    }
+
+    .div-label {
+        margin-top: 10px;
+    }
+
+    .font-label {
+        font-weight: 800;
+    }
+
+    .e-grid .e-headercell {
+        background-color: #063b65;
+        color: white;
+    }
+</style>
+@if (isLoading.Data)
+{
+    <div class="col-xl-12 text-center mt-3 mb-3">
+        <span class="spinner-border spinner-border-sm text-primary" role="status" aria-hidden="true"></span>
+        <span>Loading...</span>
+    </div>
+}
+else
+{
+    <div id="panel-1" class="panel">
+        <div class="panel-hdr bg-info-700 bg-success-gradient">
+            <h2 class="title-class">
+                Sales <span class="fw-300">Order</span>
+            </h2>
+        </div>
+        <div class="panel-container show">
+            <div class="panel-content">
+                <div class="row">
+                    <div class="col-md-12 mb-1">
+                        <div class="alert alert-secondary">
+                            <div class="row">
+                                <div class="col-md-6 mb-2">
+                                    <div class="div-label ml-2"> <label class="form-label font-label" for="basic-addon2">Keyword</label></div>
+                                    <div> <input type="text" @bind="this.Keywordsearch" class="form-control" /></div>
+                                </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="div-label ml-2"> <label class="form-label font-label" for="basic-addon2">Date</label></div>
+                                    <div>  <input class="form-control" @bind="this.datesearch" id="example-date" type="date" name="date"></div>
+                                </div>
+                                <div class="col-md-12" style="justify-items:end">
+                                    <div class="p-3">
+                                        <button @onclick="@(()=>BtnSearch_Click())" type="submit" class="btn btn-primary">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-1">
+                        <div class="p-3">
+                            <button @onclick="@(()=>BtnAdd_Click())" type="submit" class="btn btn-danger">Add New Data</button>
+                            <button @onclick="@(()=>BtnExport_Click())" type="submit" class="btn btn-primary"><i class="fal fa-file-excel mr-2"></i>Export To Excel</button>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <SfGrid @ref="mainGrid"
+                                EnableHover="false"
+                                AllowSelection="false"
+                                DataSource="@(listViewModel)"
+                                AllowPaging="true"
+                                AllowFiltering="true"
+                                AllowTextWrap="false"
+                                AllowResizing="true"
+                                AllowSorting="true"
+                                AllowExcelExport="true"
+                                AllowPdfExport="true"
+                                AllowGrouping="false"
+                                Width="100%"
+                                Height="100%"
+                                ShowColumnChooser="true">
+                            <GridPageSettings PageSizes="true"></GridPageSettings>
+                            <GridPageSettings PageCount="5" PageSizes="@(new int[] {50,100,150})" PageSize="50"></GridPageSettings>
+                            <GridFilterSettings Type="Syncfusion.Blazor.Grids.FilterType.Excel"></GridFilterSettings>
+
+                            <GridColumns>
+                                <GridColumn Width="80"
+                                            HeaderText="Aksi"
+                                            AllowFiltering="false"
+                                            AllowGrouping="false"
+                                            AllowResizing="false"
+                                            AllowSorting="false"
+                                            ShowInColumnChooser="true"
+                                            TextAlign="TextAlign.Center">
+                                    <Template>
+                                        @{
+                                            var data = (context as SoOrder);
+                                            <a href="./sales/ubah/@(data.SoOrderId)" role="button" data-toggle="tooltip" title="Lihat Detail" class="btn btn-outline-primary btn-sm btn-icon waves-effect waves-themed mr-1">
+                                                <i class="fal fa-pencil"></i>
+                                            </a>
+                                            <button @onclick="@(()=>BtnDelete_Click(data.SoOrderId))" type="button" data-toggle="tooltip" title="Hapus" class="btn btn-outline-danger btn-sm btn-icon waves-effect waves-themed mr-1">
+                                                <i class="fal fa-trash"></i>
+                                            </button>
+                                        }
+                                    </Template>
+                                </GridColumn>
+                                <GridColumn HeaderText="No"
+                                            Width="60" TextAlign="TextAlign.Center">
+                                    <Template>
+                                        @{
+                                            var data = (context as SoOrder);
+                                            <span>
+                                                @(listViewModel.IndexOf(data) + 1)
+                                            </span>
+                                        }
+                                    </Template>
+                                </GridColumn>
+                                <GridColumn HeaderText="Sales Order"
+                                            ClipMode="ClipMode.EllipsisWithTooltip"
+                                            Field="@nameof(SoOrder.OrderNo)">
+                                    <Template>
+                                        @{
+                                            var item = (context as SoOrder);
+                                        }
+                                        <a href="./sales/tambah/@(item.SoOrderId)">
+                                            @(item.OrderNo)
+                                        </a>
+                                    </Template>
+                                </GridColumn>
+                                <GridColumn HeaderText="Order Date"
+                                            ClipMode="ClipMode.EllipsisWithTooltip"
+                                            Field="@nameof(SoOrder.OrderDate)" Format="dd MMM yyyy">
+                                </GridColumn>
+                                <GridColumn HeaderText="Customer"
+                                            ClipMode="ClipMode.EllipsisWithTooltip"
+                                            Field="ComCustomer.CustomerName">
+
+                                    <Template>
+                                        @{
+                                            var item = (context as SoOrder);
+                                        }
+                                        @((item.ComCustomer is not null ? item.ComCustomer.CustomerName : "-"))
+                                    </Template>
+                                </GridColumn>
+                            </GridColumns>
+                        </SfGrid>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="modal fade" id="modal-delete" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h3 class="modal-title" id="staticBackdropLabel">Konfirmasi Hapus Data</h3>
+                <button type="button" class="btn btn-default btn-xs btn-icon waves-effect waves-themed modal-dismiss" @onclick="@(()=>BtnDeleteClose_Click())">
+                    <i class="fal fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body pt-1">
+                <p>Apakah Anda Yakin Ingin menghapus data ini ?</p>
+                <div class="d-flex justify-content-end mt-3">
+                    <button type="submit" class="btn btn-danger mr-1 mb-1" @onclick="()=>BtnDeleteConfrim_Click()">
+                        @if (isLoading.Delete)
+                        {
+                            <span class="spinner-border spinner-border-sm mr-2" role="status" aria-hidden="true"></span>
+                        }
+                        <span>Hapus Data</span>
+                    </button>
+                    <button type="submit" class="btn btn-secondary me-1 mb-1 modal-dismiss" @onclick="()=>BtnDeleteClose_Click()">
+                        @if (isLoading.Delete)
+                        {
+                            <span class="spinner-border spinner-border-sm mr-2" role="status" aria-hidden="true"></span>
+                        }
+                        <span>Batal</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
